@@ -1,0 +1,83 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhone/Debug/device-builds/iphone10.5-14.1/mtouch-cache/1-Link/System.dll
+Function=mono_pmip

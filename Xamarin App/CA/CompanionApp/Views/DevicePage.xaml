@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompanionApp.Views.DevicePage"
+             Title="{Binding Device.SerialNumber}">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*" />
+                        <ColumnDefinition Width="6*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Grid.Row="0" Text="Serial" />
+                    <Label Grid.Column="1" Grid.Row="0" Text="{Binding Device.SerialNumber}"  />
+                    <Label Grid.Column="0" Grid.Row="1" Text="Manufacturer" />
+                    <Label Grid.Column="1" Grid.Row="1" Text="{Binding Device.Manufacturer}" />
+                    <Label Grid.Column="0" Grid.Row="2" Text="Model" />
+                    <Label Grid.Column="1" Grid.Row="2" Text="{Binding Device.Model}" />
+                    <!--Label Grid.Column="0" Grid.Row="3" Text="Current GroupTag" />
+                    <Label Grid.Column="1" Grid.Row="3" Text="{Binding Device.GroupTag}" /-->
+                </Grid>
+
+                 <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*" />
+                        <ColumnDefinition Width="6*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Column="0" Grid.Row="1" Text="Group Tag" />
+                    <!--Entry Grid.Column="1" Grid.Row="1" Text="{Binding Device.GroupTag}" /-->
+                    <Picker x:Name="Picker_GroupTag" Grid.Column="1" Grid.Row="1" ItemsSource="{Binding Device.RBAC_GroupTags}" SelectedItem="{Binding Device.GroupTag}">
+
+                    </Picker>
+                    <Label Grid.Column="0" Grid.Row="2" Text="Purchase Order" />
+                    <Label Grid.Column="1" Grid.Row="2" Text="{Binding Device.PurchaseOrderNumber}" />
+                    <Label Grid.Column="0" Grid.Row="3" Text="AzureAD Groups" />
+                    <Label Grid.Column="1" Grid.Row="3" Text="{Binding Device.AzureActiveDirectoryGroupMember}" TextColor="Red" FontAttributes="Bold"/>
+                    <Label Grid.Column="0" Grid.Row="4" Text="Deployment Profile" />
+                    <Label Grid.Column="1" Grid.Row="4" Text="{Binding Device.DeploymentProfile}" />
+                    <Label Grid.Column="0" Grid.Row="5" Text="Intune Device ID" />
+                    <Label Grid.Column="1" Grid.Row="5" Text="{Binding Device.ManagedDeviceId}" />
+                    <Label Grid.Column="0" Grid.Row="6" Text="Intune Device Name" />
+                    <Label Grid.Column="1" Grid.Row="6" Text="{Binding Device.ManagedDeviceName}" />
+                    <Label Grid.Column="0" Grid.Row="7" Text="Autopilot Device ID" />
+                    <Label Grid.Column="1" Grid.Row="7" Text="{Binding Device.ZtdId}" />
+                    <Label Grid.Column="0" Grid.Row="8" Text="AAD Device Name" />
+                    <Label Grid.Column="1" Grid.Row="8" Text="{Binding Device.AzureActiveDirectoryDeviceName}" />
+                    <Label Grid.Column="0" Grid.Row="9" Text="AAD Device ID" />
+                    <Label Grid.Column="1" Grid.Row="9" Text="{Binding Device.AzureActiveDirectoryDeviceId}" />
+                    <Label Grid.Column="0" Grid.Row="10" Text="AAD Object ID" />
+                    <Label Grid.Column="1" Grid.Row="10" Text="{Binding Device.AzureActiveDirectoryObjectId}" />
+                    <Label Grid.Column="0" Grid.Row="11" Text="Addressable Name" />
+                    <Label Grid.Column="1" Grid.Row="11" Text="{Binding Device.AddressableUserName}" />
+                    <Label Grid.Column="0" Grid.Row="12" Text="User Principal Name" />
+                    <Label Grid.Column="1" Grid.Row="12" Text="{Binding Device.UserPrincipalName}" />
+                    </Grid>
+                    <Label/>
+                    <Label Text="All AAD Device IDs with same Autopilot Device ID"/>
+                    <Label Text="{Binding Device.AzureActiveDirectoryDevicesID}" />
+                    <Label Text="All AAD Device Names with same Autopilot Device ID"/>
+                    <Label Text="{Binding Device.AzureActiveDirectoryDevicesName}" />
+                    <Label/>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*" />
+                        <ColumnDefinition Width="5*" />
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="ChooseUser" Grid.Column="0" Grid.Row="0" Text="Choose new user" Clicked="ChooseUser_Clicked" BackgroundColor="Gray" TextColor="White" FontAttributes="Bold"/>
+                    <Entry x:Name="SearchforUser" Grid.Column="1" Grid.Row="0"  Text="" Placeholder="(User Principal Name)"/>
+                    <Button x:Name="RemoveUser" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Text="Remove assigned user" Clicked="RemoveUser_Clicked" BackgroundColor="Gray" TextColor="White" FontAttributes="Bold"/>
+                    <Button x:Name="SaveChanges" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Text="Save changes" Clicked="SaveChanges_Clicked" BackgroundColor="Gray" TextColor="White" FontAttributes="Bold"/>
+                    <Button x:Name="Delete" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" Text="Delete Device from Autopilot" Clicked="Delete_Clicked" BackgroundColor="Red" TextColor="Black" FontAttributes="Bold" IsVisible="false"/> 
+                    <Label Grid.Row="5" />
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

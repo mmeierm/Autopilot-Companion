@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="3" android:versionName="1.15" package="com.krones.autopilot" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="29" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <application android:label="Windows Autopilot Companion" android:name="android.app.Application" android:allowBackup="true" android:extractNativeLibs="true">
+    <activity android:name="microsoft.identity.client.AuthenticationActivity" />
+    <activity android:configChanges="orientation|screenSize" android:name="crc64ed1888fb4925e3b7.AuthenticationAgentActivity" />
+    <receiver android:enabled="true" android:exported="false" android:name="crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver" />
+    <activity android:configChanges="keyboardHidden|orientation|screenLayout" android:label="Scanner" android:name="crc6480997b3ef81bf9b2.ZxingActivity" />
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Windows Autopilot Companion App" android:theme="@style/MainTheme" android:name="crc64bf979a04fda1dce1.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name="crc64bf979a04fda1dce1.MsalActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:host="auth" />
+        <data android:scheme="msalf7bc19d0-a0f7-4564-9c46-eb5c60fec602" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.krones.autopilot.mono.MonoRuntimeProvider.__mono_init__" />
+    <activity android:name="androidx.biometric.DeviceCredentialHandlerActivity" android:exported="true" android:theme="@style/DeviceCredentialHandlerTheme" />
+    <provider android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer" android:authorities="com.krones.autopilot.lifecycle-process" android:exported="false" android:multiprocess="true" />
+    <provider android:name="androidx.work.impl.WorkManagerInitializer" android:authorities="com.krones.autopilot.workmanager-init" android:directBootAware="false" android:exported="false" android:multiprocess="true" p6:targetApi="n" xmlns:p6="http://schemas.android.com/tools" />
+    <service android:name="androidx.work.impl.background.systemalarm.SystemAlarmService" android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" p6:targetApi="n" xmlns:p6="http://schemas.android.com/tools" />
+    <service android:name="androidx.work.impl.background.systemjob.SystemJobService" android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:permission="android.permission.BIND_JOB_SERVICE" p6:targetApi="n" xmlns:p6="http://schemas.android.com/tools" />
+    <service android:name="androidx.work.impl.foreground.SystemForegroundService" android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" p6:targetApi="n" xmlns:p6="http://schemas.android.com/tools" />
+    <receiver android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver" android:directBootAware="false" android:enabled="true" android:exported="false" p6:targetApi="n" xmlns:p6="http://schemas.android.com/tools" />
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy" android:directBootAware="false" android:enabled="false" android:exported="false" p6:targetApi="n" xmlns:p6="http://schemas.android.com/tools">
+      <intent-filter>
+        <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+        <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy" android:directBootAware="false" android:enabled="false" android:exported="false" p6:targetApi="n" xmlns:p6="http://schemas.android.com/tools">
+      <intent-filter>
+        <action android:name="android.intent.action.BATTERY_OKAY" />
+        <action android:name="android.intent.action.BATTERY_LOW" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy" android:directBootAware="false" android:enabled="false" android:exported="false" p6:targetApi="n" xmlns:p6="http://schemas.android.com/tools">
+      <intent-filter>
+        <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+        <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy" android:directBootAware="false" android:enabled="false" android:exported="false" p6:targetApi="n" xmlns:p6="http://schemas.android.com/tools">
+      <intent-filter>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver" android:directBootAware="false" android:enabled="false" android:exported="false" p6:targetApi="n" xmlns:p6="http://schemas.android.com/tools">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+        <action android:name="android.intent.action.TIME_SET" />
+        <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver" android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" p6:targetApi="n" xmlns:p6="http://schemas.android.com/tools">
+      <intent-filter>
+        <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:directBootAware="false" android:enabled="true" android:exported="true" android:permission="android.permission.DUMP" p6:targetApi="n" xmlns:p6="http://schemas.android.com/tools">
+      <intent-filter>
+        <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+      </intent-filter>
+    </receiver>
+    <service android:name="androidx.room.MultiInstanceInvalidationService" android:directBootAware="true" android:exported="false" />
+  </application>
+  <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+  <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+</manifest>

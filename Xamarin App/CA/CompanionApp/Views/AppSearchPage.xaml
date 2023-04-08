@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompanionApp.Views.AppSearchPage"
+             xmlns:vm="clr-namespace:CompanionApp.ViewModel"
+             Title="{Binding Title}">
+    <ContentPage.BindingContext>
+        <vm:AppSearchViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label />
+            <Label />
+            <Label Text="Search for Win32 App Code:" />
+            <Entry x:Name="AppCode" Placeholder="" />
+            <Button x:Name="Search_App" Text="Search Win32 App Code" Clicked="SearchApp_Clicked" BackgroundColor="Gray" TextColor="White" FontAttributes="Bold"/>
+            <Label />
+            <Label />
+            <Label Text="Search for MSI Product Code:" />
+            <Entry x:Name="MSICode" Placeholder="" />
+            <Button x:Name="Search_MSI" Text="Search MSI Product Code" Clicked="SearchMSI_Clicked" BackgroundColor="Gray" TextColor="White" FontAttributes="Bold"/>
+<Grid VerticalOptions="EndAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+            <Button x:Name="Scan_App" Grid.Column="0" Text="Scan Win32 App Code" Clicked="ScanApp_Clicked" BackgroundColor="Gray" TextColor="White" FontAttributes="Bold"/>
+    <Button x:Name="Scan_MSI" Grid.Column="1" Text="Scan MSI Product Code" Clicked="ScanMSI_Clicked" BackgroundColor="Gray" TextColor="White" FontAttributes="Bold"/>
+            <Label Grid.Row="1" />
+            <Label Grid.Row="2" />
+            <Label Grid.Row="3" />
+            <Label Grid.Row="4" />
+            </Grid>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

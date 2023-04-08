@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:CompanionApp.ViewModel"
+             x:Class="CompanionApp.Views.LogonPage"
+             Title="{Binding Title}">
+    
+    <ContentPage.BindingContext>
+        <vm:LogonViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="RoyalBlue">
+            <Label Text="Autopilot Companion" FontSize="30" TextColor="White" HorizontalTextAlignment="Center" VerticalOptions="CenterAndExpand" />
+            <Label x:Name="results" Text="{Binding Results}" />
+            <StackLayout>
+                <Button x:Name="btnSignInSignOut" Text="Sign in" BackgroundColor="White" TextColor="RoyalBlue" HorizontalOptions="FillAndExpand" Command="{Binding LogonCommand}"></Button>
+                <Label/>
+                
+                <Button x:Name="btnSignInSignOutWithBroker" Text="Sign in with broker" BackgroundColor="White" TextColor="RoyalBlue" HorizontalOptions="FillAndExpand" Command="{Binding LogonCommandwithBroker}"></Button>
+                <Label />
+                <Label />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,37 @@
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/CompanionApp.iOS.exe
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/CompanionApp.iOS.pdb
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/CompanionApp.dll
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Microsoft.Identity.Client.dll
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Forms.dll
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/ZXingNetMobile.dll
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/CompanionApp.pdb
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.xml
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.xml
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.xml
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Microsoft.Identity.Client.xml
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhoneSimulator/Debug/CompanionApp.iOS.csprojAssemblyReference.cache
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhoneSimulator/Debug/CompanionApp.iOS.csproj.CoreCompileInputs.cache
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhoneSimulator/Debug/CompanionApp.iOS.csproj.CopyComplete
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhoneSimulator/Debug/CompanionApp.iOS.exe
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhoneSimulator/Debug/CompanionApp.iOS.pdb
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/zxing.dll
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/ZXingNetMobile.pdb
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Forms.pdb
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.3/actool/_PartialAppManifest.items
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.3/actool/_BundleResourceWithLogicalName.items
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.3/coremlc/_PartialAppManifest.items
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.3/coremlc/_BundleResourceWithLogicalName.items
+/Users/mmeierm/Desktop/WindowsAutopilotCompanion/CA/CompanionApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-14.3/optimized/
