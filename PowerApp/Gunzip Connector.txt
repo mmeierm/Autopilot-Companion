@@ -1,0 +1,34 @@
+public class Script: ScriptBase{
+  public override async Task < HttpResponseMessage > ExecuteAsync(){
+    var response = new HttpResponseMessage();
+    
+    var contentAsString = await this.Context.Request.Content.ReadAsStringAsync().ConfigureAwait(false);
+    
+    var contentAsJson = JObject.Parse(contentAsString);
+    
+    var file = (string) contentAsJson["file"];
+    
+    byte[] data = Convert.FromBase64String(file);
+    
+    string decompressedData = DecompressGzip(data);
+    
+    response.Content = CreateJsonContent(new JObject {
+    ["gzipBody"] = decompressedData,
+    }.ToString());
+    
+    return response;
+  }
+  
+  
+  private string DecompressGzip(byte[] compressedData)
+  {
+    using (MemoryStream compressedStream = new MemoryStream(compressedData))
+    using (GZipStream gzipStream = new GZipStream(compressedStream, CompressionMode.Decompress))
+    using (MemoryStream decompressedStream = new MemoryStream())
+    {
+      gzipStream.CopyTo(decompressedStream);
+      
+      return Encoding.UTF8.GetString(decompressedStream.ToArray());
+    }
+  }
+}
